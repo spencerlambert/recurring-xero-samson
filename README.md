@@ -20,15 +20,15 @@
 
 ## Envisioned Modules
 
-### Subscription UI
+#### Subscription UI
 
 This is the UI that talks to the Subscription module.  Think of it like Accounts UI in relation to Accounts.
 
-### Subscription
+#### Subscription
 
 This is the module that you'll be working on.  It interfaces with the MongoDB.
 
-## Subscription Billing
+#### Subscription Billing
 
 This module is a backend module that reads the MongoDB, creates the invoices in Xero and closes and opens new subscriptions in the MongoDB.
 
