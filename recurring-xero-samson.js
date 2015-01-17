@@ -15,8 +15,8 @@ if (Meteor.isClient) {
     'click input' : function () {
       //insert into invoices collection
        Invoices.insert({
-	'customer_id': 'mongo id to the customer the subsription is tied to',
-	'start_date': 'date the subscription service starts',
+	'customer_id': '1',
+	'start_date': new Date(),
 	'end_date': 'date the subscription stops',
 	'repeat_every': 'false = one time subscription, int = number of units',
 	'repeat_unit':'false = does not recurre, day, week, month, year',
